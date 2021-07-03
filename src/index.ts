@@ -63,5 +63,5 @@ const createPic = (title: string, date: string, size: SquareSize): object => {
     return { title, date, size };
 };
 
-const picture = createPic('Platzi session', '2020-03-10', '100x100');
+let picture = createPic('Platzi session', '2020-03-10', '100x100');
 console.log(picture);
